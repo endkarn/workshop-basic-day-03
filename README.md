@@ -8,3 +8,4 @@
 ## Resources
 * [Multiple datasource](https://www.baeldung.com/spring-data-jpa-multiple-databases)
 * [Working with MySQL](https://spring.io/guides/gs/accessing-data-mysql/)
+* [Command runner with Spring Boot](https://spring.io/guides/gs/relational-data-access/)
