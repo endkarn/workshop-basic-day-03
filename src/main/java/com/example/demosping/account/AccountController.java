@@ -35,4 +35,20 @@ public class AccountController {
         throw new RuntimeException("Account not found with id="+ id);
     }
 
+    @Autowired
+    private AccountJdbcRepository accountJdbcRepository;
+
+    @GetMapping("/v3/account/{id}")
+    public AccountResponse getById3(@PathVariable int id) {
+        Account account = accountJdbcRepository.getInfo(id);
+        if(account != null) {
+            AccountResponse accountResponse = new AccountResponse();
+            accountResponse.setId(account.getAccountId());
+            accountResponse.setName(account.getAccountName());
+            accountResponse.setAge(account.getAge());
+            return accountResponse;
+        }
+        throw new RuntimeException("Account not found with id="+ id);
+    }
+
 }
