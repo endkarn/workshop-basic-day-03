@@ -15,7 +15,6 @@ public class DemoSpingApplication {
 
 	@Autowired AccountRepository repository;
 
-//	@Profile({"testing"})
 	@PostConstruct
 	public void initialDataForTesting() {
 		Account somkiat = new Account();
