@@ -18,7 +18,7 @@ public class DemoSpingApplication {
 	@PostConstruct
 	public void initialDataForTesting() {
 		Account somkiat = new Account();
-		somkiat.setAccountId(1);
+		somkiat.setAccountId(100);
 		somkiat.setAccountName("Somkiat for test");
 		somkiat.setAge(100);
 		repository.save(somkiat);
