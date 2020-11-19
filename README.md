@@ -3,6 +3,7 @@
 * [Instruction of workshop](https://github.com/up1/workshop-basic-day-03/wiki)
 * [Working with Database with Maria DB](https://github.com/up1/workshop-basic-day-03/wiki/Working-with-Database)
 * [Working with Spring Data JDBC](https://github.com/up1/workshop-basic-day-03/wiki/Working-with-Spring-Data-JDBC)
+* [Working with External API](https://github.com/up1/workshop-basic-day-03/wiki/Working-with-External-API)
 
 
 ## Resources
